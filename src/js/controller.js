@@ -53,7 +53,7 @@ const controlSearchResults = async function () {
     // resultsView.render(model.state.search.results);
     resultsView.render(model.getSearchResultspage(1));
     //
-    PaginationView.render(model.state.search);
+    paginationView.render(model.state.search);
   } catch (err) {
     console.log(err);
   }
@@ -63,7 +63,7 @@ const controlSearchResults = async function () {
 const controlPagination = function (gotoPage) {
   resultsView.render(model.getSearchResultspage(gotoPage));
   //
-  PaginationView.render(model.state.search);
+  paginationView.render(model.state.search);
 };
 const controlServings = function (newservings) {
   model.updateServings(newservings);
