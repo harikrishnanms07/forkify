@@ -3,7 +3,7 @@ import recipeView from './new/recipeView.js';
 import searchView from './new/searchView.js';
 import resultsView from './new/resultsView.js';
 import bookmarksView from './new/bookmarksView.js';
-import PaginationView from './new/paginationView.js';
+import paginationView from './new/paginationView.js';
 import addRecipeView from './new/addRecipeView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 //
@@ -11,10 +11,10 @@ import { MODAL_CLOSE_SEC } from './config.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import resultsView from './new/resultsView.js';
-import searchView from './new/SearchView.js';
-import View from './new/view.js';
-import paginationView from './new/paginationView.js';
+// import resultsView from './new/resultsView.js';
+// import searchView from './new/SearchView.js';
+// import View from './new/view.js';
+// import paginationView from './new/paginationView.js';
 //
 // https://forkify-api.herokuapp.com/v2
 //
